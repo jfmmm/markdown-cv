@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html#win, html#win body {
+  zoom: 0.90;
+}
+
+html#linux, html#linux body {
+  zoom: 0.77;
+}
+
+a {
+  color: #2a5ec1 !important;
+  text-decoration: underline !important;
+}

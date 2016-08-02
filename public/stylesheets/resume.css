@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+#resume {
+  font-family: "Droid Sans";
+  color: #6f6f6f;
+}
+
+h1 {
+  font-family: Lobster;
+  font-size: 60px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-weight: normal;
+  color: #2a5ec1;
+}
+
+h2 {
+  font-family: "Droid Sans";
+  font-size: 28px;
+  color: #535353;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  font-family: Lobster;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: #2a5ec1;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-weight: bold;
+  color: #2a5ec1;
+}
+h4 em {
+  float: right;
+  color: #6f6f6f;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 2px;
+  font-style: normal;
+}
+
+h5 {
+  font-size: 14px;
+  color: #6f6f6f;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 10px 0 0 0;
+}
+
+ul li {
+  line-height: 24px;
+}
+
+hr {
+  border: none;
+  margin: 40px 0;
+}
+
+blockquote {
+  color: #6f6f6f;
+  padding: 0;
+  margin: 25px 0 0 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#resume > p {
+  margin-bottom: 40px;
+}
+
+@keyframes showLinks {
+  0% {
+    color: #6f6f6f;
+  }
+  100% {
+    color: #2a5ec1;
+  }
+}
+a {
+  color: #6f6f6f;
+  text-decoration: none;
+  animation-name: showLinks;
+  animation-duration: 100s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition-property: all;
+  animation-delay: 0s;
+  animation-play-state: paused;
+}
+
+a:hover {
+  text-decoration: underline;
+}

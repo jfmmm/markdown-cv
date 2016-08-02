@@ -1,0 +1,7 @@
+extends layout-pdf
+
+block header
+  link(rel='stylesheet', href='/stylesheets/resume.css')
+
+block content
+  div#resume!= resumeHTML

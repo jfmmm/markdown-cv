@@ -1,0 +1,41 @@
+.menu {
+  display: none;
+}
+
+body, html {
+  overflow: visible;
+}
+
+* {
+  overflow: visible !important;
+}
+
+#content {
+  position: static !important;
+  overflow: visible;
+}
+
+#starfield {
+  display: none;
+}
+
+#innerContent {
+  position: static !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-width: inherit !important;
+  max-width: inherit !important;
+}
+
+#resume {
+  min-width: inherit !important;
+  max-width: inherit !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: none;
+  border-radius: 0 !important;
+}
+
+.qtip, .qtip * {
+  display: none !important;
+}

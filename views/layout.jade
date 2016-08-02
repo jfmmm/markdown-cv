@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css', media='screen')
+    link(rel='stylesheet', href='/stylesheets/print.css', media='print')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.css')
+    
+    //script(src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5.1/dat.gui.min.js')
+    //script(src='https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js')
+    //script(src='https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js')
+    //script(src='https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.25/paper-full.min.js')
+    //script(src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.js')
+    //script(type='text/javascript', src="javascripts/starfield-utils.js")
+    //script(type='text/javascript', src="javascripts/starfield.js")
+    script(type='text/javascript', src="javascripts/main.js")
+    script(type='text/javascript', src="javascripts/linksReveal.js")
+    block header
+  body
+    #starfields
+      .field.tiny
+    canvas#starfield(data-paper-keepalive="true")
+
+    div#content
+      div#innerContent
+        nav.menu
+          ul
+            li.print
+              a(href="javascript: print();", target="blank", data-tooltip="Imprimer")
+                i.icon-print
+            li.downloadPDF
+              a(href="/cv_jfmorin.pdf", target="blank", data-tooltip="Télécharger en format PDF")
+                i.icon-download
+            li.downloadsMD
+              a(href="/cv_jfmorin.md", target="blank", data-tooltip="Télécharger en format Markdown")
+                i.icon-markdown
+
+        block content
+  footer

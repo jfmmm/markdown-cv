@@ -1,0 +1,9 @@
+extends layout
+
+block header
+  link(rel='stylesheet', href='/stylesheets/resume.css')
+  script(type='text/javascript', src="javascripts/resume.js")
+
+block content
+  div#resume!= resumeHTML
+  
