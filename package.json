@@ -15,7 +15,7 @@
     "jade": "~1.11.0",
     "markdown-resume": "^0.1.0",
     "marked": "^0.3.5",
-    "morgan": "~1.6.1",
+    "morgan": "~1.9.1",
     "node-compass": "0.2.3",
     "serve-favicon": "~2.3.0"
   },
